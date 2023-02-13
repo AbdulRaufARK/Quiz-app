@@ -14,20 +14,69 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(12, 12, 12);
+  margin: 0px;
 }
 
 .App-link {
   color: #61dafb;
 }
+.top-box{
+  height: 100vh;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  background-color: #eee8e8;
+  
+}
+.result {
+  height: 100vh;
+  width: 70%;
+  padding: 0;
+  margin: auto;
+  background-color: #eee8e8 ;
+  font-size: 100px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration-line: underline;
+}
+.button{
+  color: black;
+  background-color: #c4c3c3;
+  font-size:  22px;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 15px;
+  height: 3rem;
+  width: 28rem;
+  margin-top: 10px;
+}
+.logo{
+  font-size: 88px;
+  height: 30vh;
+  width: 60%;
+  color: #c32a2a;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 2px solid black;
+  background-image: url("https://t3.ftcdn.net/jpg/04/59/20/00/360_F_459200038_Pr1w7zD67A7EhhVXKb7e9rMkYvd7M1cQ.jpg");
+  background-position:center;
+  background-size:cover;
+  background-repeat: no-repeat;}
 
+.margin{
+  margin: 0px;
+
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
